@@ -43,11 +43,11 @@ The `dataset/` folder contains training images organized by person. Add new face
 
 ## License
 
-[Add license information here]
+no License
 
 ## Author
 
+Mạnh Tiến
 
-[Add author information here]
 
 
