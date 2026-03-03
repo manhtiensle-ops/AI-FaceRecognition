@@ -28,7 +28,7 @@ A Python project for face detection and recognition using modern deep learning t
 
 2. **Run the application:**
    ```bash
-   python fastFaceRecognition.py
+   python main.py
    ```
 
 ## Usage
@@ -36,7 +36,7 @@ A Python project for face detection and recognition using modern deep learning t
 To start the face recognition system, simply run:
 
 ```bash
-python fastFaceRecognition.py
+python main.py
 ```
 
 ## Dataset
@@ -51,3 +51,4 @@ The `dataset/` folder contains training images organized by person. Add new face
 
 
 [Add author information here]
+
