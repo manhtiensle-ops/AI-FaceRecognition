@@ -4,8 +4,6 @@ A Python project for face detection and recognition using modern deep learning t
 
 ## Project Structure
 
-- `fastFaceRecognition.py` - Main face recognition module
-- `face_detection_sample.py` - Face detection examples
 - `main.py` - Entry point for the application
 - `dataset/` - Training data directory containing face images organized by person:
   - `elonmusk/`
@@ -51,4 +49,5 @@ The `dataset/` folder contains training images organized by person. Add new face
 
 
 [Add author information here]
+
 
