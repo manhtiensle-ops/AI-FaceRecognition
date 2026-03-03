@@ -9,10 +9,8 @@ A Python project for face detection and recognition using modern deep learning t
 - `main.py` - Entry point for the application
 - `dataset/` - Training data directory containing face images organized by person:
   - `elonmusk/`
-  - `manhtien/`
   - `mark/`
   - `obama/`
-  - `yennhi/`
 
 ## Getting Started
 
@@ -50,5 +48,6 @@ The `dataset/` folder contains training images organized by person. Add new face
 [Add license information here]
 
 ## Author
+
 
 [Add author information here]
