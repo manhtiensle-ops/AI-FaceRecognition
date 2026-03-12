@@ -30,9 +30,9 @@ mtcnn = MTCNN(
     post_process=False
 )
 
-# InceptionResnetV1 dùng để NHẬN DIỆN, biến ảnh thành 512 con số
+# Use InceptionResnetV1 to recognise
 resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
-#Ép ảnh khuôn mặt về chuẩn 160x160 cho Resnet
+#transform to 160x160 
 face_transform = transforms.Compose([
     transforms.ToPILImage(),
     transforms.Resize((160, 160)),
@@ -237,4 +237,5 @@ while True:
         break
     
 cap.release()
+
 cv2.destroyAllWindows()
