@@ -4,5 +4,4 @@ opencv-python
 Pillow
 facenet-pytorch
 numpy
-flask
-flask_cors
+requests
